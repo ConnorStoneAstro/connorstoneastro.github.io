@@ -6,84 +6,133 @@
     <description>Recent content on Connor Stone</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Simulation Based Inference</title>
+      <title>📄 Pixellated Posterior Sampling of Point Spread Functions in Astronomical Images</title>
+      <link>http://localhost:1313/publications/pixellated-psf-sampling/</link>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/pixellated-psf-sampling/</guid>
+      <description>A framework for fully probabilistic, pixel-level inference of the point spread function directly from astronomical images, enabling principled uncertainty quantification in downstream photometric analyses.</description>
+    </item>
+    <item>
+      <title>💻 caskade: Building Pythonic Scientific Simulators</title>
+      <link>http://localhost:1313/publications/caskade/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/caskade/</guid>
+      <description>caskade is a Python library for constructing modular, differentiable scientific simulators with automatic parameter tracking and Bayesian inference integration.</description>
+    </item>
+    <item>
+      <title>💻 Caustics: A Python Package for Accelerated Strong Gravitational Lensing Simulations</title>
+      <link>http://localhost:1313/publications/caustics/</link>
+      <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/caustics/</guid>
+      <description>Caustics is a GPU-accelerated Python package for strong gravitational lensing forward modelling, enabling fast simulation and inference for large-scale lensing surveys.</description>
+    </item>
+    <item>
+      <title>📝 Simulation Based Inference</title>
       <link>http://localhost:1313/demos/simulation-based-inference/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/demos/simulation-based-inference/</guid>
       <description>An introduction to likelihood-free inference: what it is, why you&amp;rsquo;d use it, and how the four main approaches (NLE, NPE, NJE, NRE) work.</description>
     </item>
     <item>
-      <title>World Coordinate Systems</title>
+      <title>📝 World Coordinate Systems</title>
       <link>http://localhost:1313/demos/world-coordinate-systems/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/demos/world-coordinate-systems/</guid>
       <description>How WCS works in astronomical images — translating between pixel coordinates and sky coordinates.</description>
     </item>
     <item>
-      <title>Bayesian Statistics Primer</title>
+      <title>💻 AstroPhot: Fitting Everything Everywhere All at Once in Astronomical Images</title>
+      <link>http://localhost:1313/publications/astrophot/</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/astrophot/</guid>
+      <description>AstroPhot is a Python package for simultaneous multi-band, multi-object photometric fitting of astronomical images using automatic differentiation and GPU acceleration.</description>
+    </item>
+    <item>
+      <title>📝 Bayesian Statistics Primer</title>
       <link>http://localhost:1313/demos/bayesian-statistics-primer/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/demos/bayesian-statistics-primer/</guid>
       <description>An introduction to Bayesian thinking: priors, likelihoods, posteriors, and why it matters for science.</description>
     </item>
     <item>
-      <title>Linear Regression Primer</title>
+      <title>📝 Linear Regression Primer</title>
       <link>http://localhost:1313/demos/linear-regression-primer/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/demos/linear-regression-primer/</guid>
       <description>A ground-up walkthrough of linear regression — the math, the geometry, and the assumptions that matter.</description>
     </item>
     <item>
+      <title>📄 PROBES-I: A Compendium of Deep Rotation Curves and Matched Multiband Photometry</title>
+      <link>http://localhost:1313/publications/probes-i/</link>
+      <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/probes-i/</guid>
+      <description>PROBES-I presents a homogenised catalogue of 3163 deep optical rotation curves with matched multiband photometry for late-type galaxies, enabling precision tests of galaxy structure and dark matter models.</description>
+    </item>
+    <item>
+      <title>💻 AutoProf: An Automated Non-Parametric Light Profile Pipeline for Modern Galaxy Surveys</title>
+      <link>http://localhost:1313/publications/autoprof/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/autoprof/</guid>
+      <description>AutoProf is an automated pipeline for extracting non-parametric surface brightness profiles from galaxy images, designed to scale to the large datasets of modern wide-field surveys.</description>
+    </item>
+    <item>
+      <title>📄 The Intrinsic Scatter of Galaxy Scaling Relations</title>
+      <link>http://localhost:1313/publications/intrinsic-scatter-scaling/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/intrinsic-scatter-scaling/</guid>
+      <description>A Bayesian hierarchical analysis of the intrinsic scatter in late-type galaxy scaling relations, separating measurement error from genuine physical scatter and constraining galaxy formation models.</description>
+    </item>
+    <item>
+      <title>📄 The Intrinsic Scatter of the Radial Acceleration Relation</title>
+      <link>http://localhost:1313/publications/intrinsic-scatter-rar/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/intrinsic-scatter-rar/</guid>
+      <description>A statistical analysis of the intrinsic scatter in the Radial Acceleration Relation (RAR), placing tight constraints on the universality of the baryonic-to-total acceleration connection in late-type galaxies.</description>
+    </item>
+    <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>About Connor Stone</description>
+      <description>Rubin Fellow, University of Toronto · Cosmology · Astrostatistics · Open-source Software</description>
     </item>
     <item>
       <title>Astrophotography</title>
       <link>http://localhost:1313/astrophotography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/astrophotography/</guid>
-      <description>Astrophotography by Connor Stone</description>
+      <description>Auroras, eclipses, and deep-sky objects photographed from Ontario and Quebec</description>
     </item>
     <item>
       <title>CV</title>
       <link>http://localhost:1313/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/cv/</guid>
-      <description>Curriculum vitae</description>
+      <description>Academic CV — automatically compiled from the source LaTeX</description>
     </item>
     <item>
       <title>Public Outreach</title>
       <link>http://localhost:1313/outreach/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/outreach/</guid>
-      <description>Science communication and public outreach</description>
-    </item>
-    <item>
-      <title>Publications</title>
-      <link>http://localhost:1313/publications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/</guid>
-      <description>Connor Stone&amp;rsquo;s publications</description>
+      <description>Science for everyone — podcasts, public talks, school programmes, and live events</description>
     </item>
     <item>
       <title>Research</title>
       <link>http://localhost:1313/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/</guid>
-      <description>Connor Stone&amp;rsquo;s research</description>
+      <description>Supernova cosmology, gravitational lensing, and Bayesian methods for large astronomical surveys</description>
     </item>
     <item>
       <title>Software</title>
       <link>http://localhost:1313/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/software/</guid>
-      <description>Open-source software by Connor Stone</description>
+      <description>GPU-accelerated tools for astronomical image analysis, gravitational lensing, and scientific simulation</description>
     </item>
   </channel>
 </rss>

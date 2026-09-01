@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Galaxies on Connor Stone</title>
+    <link>http://localhost:1313/tags/galaxies/</link>
+    <description>Recent content in Galaxies on Connor Stone</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/galaxies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>💻 AstroPhot: Fitting Everything Everywhere All at Once in Astronomical Images</title>
+      <link>http://localhost:1313/publications/astrophot/</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/astrophot/</guid>
+      <description>AstroPhot is a Python package for simultaneous multi-band, multi-object photometric fitting of astronomical images using automatic differentiation and GPU acceleration.</description>
+    </item>
+    <item>
+      <title>📄 PROBES-I: A Compendium of Deep Rotation Curves and Matched Multiband Photometry</title>
+      <link>http://localhost:1313/publications/probes-i/</link>
+      <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/probes-i/</guid>
+      <description>PROBES-I presents a homogenised catalogue of 3163 deep optical rotation curves with matched multiband photometry for late-type galaxies, enabling precision tests of galaxy structure and dark matter models.</description>
+    </item>
+    <item>
+      <title>💻 AutoProf: An Automated Non-Parametric Light Profile Pipeline for Modern Galaxy Surveys</title>
+      <link>http://localhost:1313/publications/autoprof/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/autoprof/</guid>
+      <description>AutoProf is an automated pipeline for extracting non-parametric surface brightness profiles from galaxy images, designed to scale to the large datasets of modern wide-field surveys.</description>
+    </item>
+    <item>
+      <title>📄 The Intrinsic Scatter of Galaxy Scaling Relations</title>
+      <link>http://localhost:1313/publications/intrinsic-scatter-scaling/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/intrinsic-scatter-scaling/</guid>
+      <description>A Bayesian hierarchical analysis of the intrinsic scatter in late-type galaxy scaling relations, separating measurement error from genuine physical scatter and constraining galaxy formation models.</description>
+    </item>
+    <item>
+      <title>📄 The Intrinsic Scatter of the Radial Acceleration Relation</title>
+      <link>http://localhost:1313/publications/intrinsic-scatter-rar/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/intrinsic-scatter-rar/</guid>
+      <description>A statistical analysis of the intrinsic scatter in the Radial Acceleration Relation (RAR), placing tight constraints on the universality of the baryonic-to-total acceleration connection in late-type galaxies.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,5 +1,5 @@
 ---
-title: "World Coordinate Systems"
+title: "📝 World Coordinate Systems"
 date: 2023-09-01
 summary: "How WCS works in astronomical images — translating between pixel coordinates and sky coordinates."
 tags: ["astronomy", "coordinates"]

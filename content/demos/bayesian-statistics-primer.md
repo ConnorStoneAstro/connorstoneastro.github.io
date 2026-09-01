@@ -1,5 +1,5 @@
 ---
-title: "Bayesian Statistics Primer"
+title: "📝 Bayesian Statistics Primer"
 date: 2023-06-01
 summary: "An introduction to Bayesian thinking: priors, likelihoods, posteriors, and why it matters for science."
 tags: ["statistics", "bayesian"]

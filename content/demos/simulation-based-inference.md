@@ -1,5 +1,5 @@
 ---
-title: "Simulation Based Inference"
+title: "📝 Simulation Based Inference"
 date: 2024-01-01
 summary: "An introduction to likelihood-free inference: what it is, why you'd use it, and how the four main approaches (NLE, NPE, NJE, NRE) work."
 tags: ["statistics", "machine learning", "inference"]

@@ -7,10 +7,10 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Public Outreach | Connor Stone</title>
 <meta name="keywords" content="">
-<meta name="description" content="Science communication and public outreach">
+<meta name="description" content="Science for everyone — podcasts, public talks, school programmes, and live events">
 <meta name="author" content="Connor Stone">
 <link rel="canonical" href="http://localhost:1313/outreach/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.d92d9aa382a827dda21bf1377e9203e27a444da2e8b4ef76913833adb6d6ba15.css" integrity="sha256-2S2ao4KoJ92iG/E3fpID4npETaLotO92kTgzrbbWuhU=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.e2fb2e749f22327d0ee0933a718e834aeed799f60572db06ec0e884fb9f78b74.css" integrity="sha256-4vsudJ8iMn0O4JM6cY6DSu7XmfYFctsG7A6IT7n3i3Q=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -147,15 +147,41 @@
     <h1 class="post-title entry-hint-parent">
       Public Outreach
     </h1>
+    <div class="post-description">
+      Science for everyone — podcasts, public talks, school programmes, and live events
+    </div>
     <div class="post-meta">
 
 <span>1 min</span>&nbsp;·&nbsp;<span>Connor Stone</span>
 
 </div>
   </header> 
-  <div class="post-content md-content"><p>Science communication is important to me. I enjoy making astrophysics accessible to broad audiences
-through writing, talks, and hands-on activities.</p>
-<p><em>Add outreach activities, talks, and media appearances here.</em></p>
+<figure class="entry-cover">
+        <img loading="eager" src="http://localhost:1313/images/hero.jpg" alt="Mauna Kea Observatories">
+        
+</figure>
+  <div class="post-content md-content"><p>Scientific knowledge is worthless if it can&rsquo;t be shared with everyone.</p>
+<h2 id="queens-observatory">Queen&rsquo;s Observatory<a hidden class="anchor" aria-hidden="true" href="#queens-observatory">#</a></h2>
+<p>During my PhD at Queen&rsquo;s University I served as coordinator of the Queen&rsquo;s Observatory, running a range of public outreach programmes.</p>
+<p><strong>Fast Radio Bursts Podcast</strong> — A series exploring current astronomy topics through researcher interviews, making cutting-edge science accessible to general audiences.</p>
+<p><strong>Open House Talks</strong> — Recorded presentations posted to YouTube so anyone could access them regardless of location or schedule.</p>
+<p><strong>Percy Goes to Mars</strong> — A livestream event for the Perseverance rover landing that drew over 700 viewers.</p>
+<p><strong>Science Rendezvous 2022</strong> — Organised 15 volunteers running 9 hands-on activities at this annual public science festival. Received the Outstanding Volunteer recognition.</p>
+<p><strong>Virtual School Tours</strong> — Group tours for classes and summer camps across grade levels, adapted for remote delivery.</p>
+<h2 id="public-speaking-and-media">Public Speaking and Media<a hidden class="anchor" aria-hidden="true" href="#public-speaking-and-media">#</a></h2>
+<p>I have given keynote addresses and media interviews on topics including:</p>
+<ul>
+<li>Mercury transit observations</li>
+<li>Comet visibility guidance</li>
+<li>SpaceX launches and the International Space Station</li>
+<li>Apollo 11 anniversary</li>
+<li>Nobel Prize discussions in physics</li>
+</ul>
+<h2 id="community">Community<a hidden class="anchor" aria-hidden="true" href="#community">#</a></h2>
+<ul>
+<li><strong>G.I.R.L.S Camp</strong> — promoting women in STEM</li>
+<li><strong>Science Rendezvous</strong> — annual public science festival</li>
+</ul>
 
 
   </div>
@@ -185,7 +211,85 @@ through writing, talks, and hands-on activities.</p>
         <polyline points="17 11 12 6 7 11"></polyline>
         <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
-</a>
+</a><div id="lightbox" aria-modal="true" role="dialog" aria-label="Image viewer">
+  <button id="lightbox-close" aria-label="Close">&times;</button>
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<style>
+#lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.88);
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+}
+#lightbox.open {
+  display: flex;
+}
+#lightbox-img {
+  max-width: 92vw;
+  max-height: 92vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+  cursor: default;
+}
+#lightbox-close {
+  position: fixed;
+  top: 1rem;
+  right: 1.25rem;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.75;
+  padding: 0;
+}
+#lightbox-close:hover { opacity: 1; }
+</style>
+
+<script>
+(function () {
+  const lb   = document.getElementById('lightbox');
+  const img  = document.getElementById('lightbox-img');
+  const btn  = document.getElementById('lightbox-close');
+
+  function open(src, alt) {
+    img.src = src;
+    img.alt = alt || '';
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    lb.classList.remove('open');
+    img.src = '';
+    document.body.style.overflow = '';
+  }
+
+  lb.addEventListener('click', function (e) {
+    if (e.target !== img) close();
+  });
+  btn.addEventListener('click', close);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') close();
+  });
+
+  document.querySelectorAll('.section-img, .photo-grid img').forEach(function (el) {
+    el.style.cursor = 'zoom-in';
+    el.addEventListener('click', function () {
+      open(el.src, el.alt);
+    });
+  });
+})();
+</script>
+
 
 <script>
     let menu = document.getElementById('menu');

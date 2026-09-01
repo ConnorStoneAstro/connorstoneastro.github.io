@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Scaling Relations on Connor Stone</title>
+    <link>http://localhost:1313/tags/scaling-relations/</link>
+    <description>Recent content in Scaling Relations on Connor Stone</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/scaling-relations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📄 The Intrinsic Scatter of Galaxy Scaling Relations</title>
+      <link>http://localhost:1313/publications/intrinsic-scatter-scaling/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/intrinsic-scatter-scaling/</guid>
+      <description>A Bayesian hierarchical analysis of the intrinsic scatter in late-type galaxy scaling relations, separating measurement error from genuine physical scatter and constraining galaxy formation models.</description>
+    </item>
+  </channel>
+</rss>

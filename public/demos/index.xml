@@ -9,28 +9,28 @@
     <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/demos/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Simulation Based Inference</title>
+      <title>📝 Simulation Based Inference</title>
       <link>http://localhost:1313/demos/simulation-based-inference/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/demos/simulation-based-inference/</guid>
       <description>An introduction to likelihood-free inference: what it is, why you&amp;rsquo;d use it, and how the four main approaches (NLE, NPE, NJE, NRE) work.</description>
     </item>
     <item>
-      <title>World Coordinate Systems</title>
+      <title>📝 World Coordinate Systems</title>
       <link>http://localhost:1313/demos/world-coordinate-systems/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/demos/world-coordinate-systems/</guid>
       <description>How WCS works in astronomical images — translating between pixel coordinates and sky coordinates.</description>
     </item>
     <item>
-      <title>Bayesian Statistics Primer</title>
+      <title>📝 Bayesian Statistics Primer</title>
       <link>http://localhost:1313/demos/bayesian-statistics-primer/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/demos/bayesian-statistics-primer/</guid>
       <description>An introduction to Bayesian thinking: priors, likelihoods, posteriors, and why it matters for science.</description>
     </item>
     <item>
-      <title>Linear Regression Primer</title>
+      <title>📝 Linear Regression Primer</title>
       <link>http://localhost:1313/demos/linear-regression-primer/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/demos/linear-regression-primer/</guid>

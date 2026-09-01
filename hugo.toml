@@ -11,6 +11,7 @@ buildFuture = false
 buildExpired = false
 
 [params]
+  mainSections = ["publications", "demos"]
   author = "Connor Stone"
   description = "Astrostatistics | Data Science | Science Communication"
   defaultTheme = "auto"
@@ -35,8 +36,8 @@ buildExpired = false
   [params.homeInfoParams]
     Title = "Connor Stone"
     Content = """
-PhD in Astrophysics. I work on astrostatistics, data science, and open-source scientific software.
-Currently a researcher at the University of Toronto.
+Rubin Fellow at the University of Toronto. \
+I work on supernova cosmology, astrostatistics, and open-source scientific software.
 """
 
   [[params.socialIcons]]

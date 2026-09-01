@@ -6,20 +6,83 @@
     <description>Recent content in Tags on Connor Stone</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Inference</title>
-      <link>http://localhost:1313/tags/inference/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/inference/</guid>
+      <title>Bayesian Inference</title>
+      <link>http://localhost:1313/tags/bayesian-inference/</link>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bayesian-inference/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning</title>
       <link>http://localhost:1313/tags/machine-learning/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Photometry</title>
+      <link>http://localhost:1313/tags/photometry/</link>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/photometry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PSF</title>
+      <link>http://localhost:1313/tags/psf/</link>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/psf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/tags/python/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scientific Computing</title>
+      <link>http://localhost:1313/tags/scientific-computing/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/scientific-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simulation</title>
+      <link>http://localhost:1313/tags/simulation/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/simulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>http://localhost:1313/tags/software/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GPU</title>
+      <link>http://localhost:1313/tags/gpu/</link>
+      <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gpu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gravitational Lensing</title>
+      <link>http://localhost:1313/tags/gravitational-lensing/</link>
+      <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gravitational-lensing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inference</title>
+      <link>http://localhost:1313/tags/inference/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/inference/</guid>
       <description></description>
     </item>
     <item>
@@ -44,6 +107,13 @@
       <description></description>
     </item>
     <item>
+      <title>Galaxies</title>
+      <link>http://localhost:1313/tags/galaxies/</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/galaxies/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Bayesian</title>
       <link>http://localhost:1313/tags/bayesian/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
@@ -55,6 +125,48 @@
       <link>http://localhost:1313/tags/regression/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/regression/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dark Matter</title>
+      <link>http://localhost:1313/tags/dark-matter/</link>
+      <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/dark-matter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rotation Curves</title>
+      <link>http://localhost:1313/tags/rotation-curves/</link>
+      <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rotation-curves/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Light Profiles</title>
+      <link>http://localhost:1313/tags/light-profiles/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/light-profiles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scaling Relations</title>
+      <link>http://localhost:1313/tags/scaling-relations/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/scaling-relations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MOND</title>
+      <link>http://localhost:1313/tags/mond/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mond/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Radial Acceleration Relation</title>
+      <link>http://localhost:1313/tags/radial-acceleration-relation/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/radial-acceleration-relation/</guid>
       <description></description>
     </item>
   </channel>

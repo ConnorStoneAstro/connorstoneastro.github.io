@@ -6,14 +6,28 @@
     <description>Recent content in Machine Learning on Connor Stone</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Simulation Based Inference</title>
+      <title>📄 Pixellated Posterior Sampling of Point Spread Functions in Astronomical Images</title>
+      <link>http://localhost:1313/publications/pixellated-psf-sampling/</link>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/pixellated-psf-sampling/</guid>
+      <description>A framework for fully probabilistic, pixel-level inference of the point spread function directly from astronomical images, enabling principled uncertainty quantification in downstream photometric analyses.</description>
+    </item>
+    <item>
+      <title>📝 Simulation Based Inference</title>
       <link>http://localhost:1313/demos/simulation-based-inference/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/demos/simulation-based-inference/</guid>
       <description>An introduction to likelihood-free inference: what it is, why you&amp;rsquo;d use it, and how the four main approaches (NLE, NPE, NJE, NRE) work.</description>
+    </item>
+    <item>
+      <title>💻 AstroPhot: Fitting Everything Everywhere All at Once in Astronomical Images</title>
+      <link>http://localhost:1313/publications/astrophot/</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/astrophot/</guid>
+      <description>AstroPhot is a Python package for simultaneous multi-band, multi-object photometric fitting of astronomical images using automatic differentiation and GPU acceleration.</description>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 ---
-title: "Linear Regression Primer"
+title: "📝 Linear Regression Primer"
 date: 2023-01-01
 summary: "A ground-up walkthrough of linear regression — the math, the geometry, and the assumptions that matter."
 tags: ["statistics", "regression"]

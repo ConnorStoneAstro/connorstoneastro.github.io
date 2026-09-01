@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Light Profiles on Connor Stone</title>
+    <link>http://localhost:1313/tags/light-profiles/</link>
+    <description>Recent content in Light Profiles on Connor Stone</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/light-profiles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>💻 AutoProf: An Automated Non-Parametric Light Profile Pipeline for Modern Galaxy Surveys</title>
+      <link>http://localhost:1313/publications/autoprof/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/autoprof/</guid>
+      <description>AutoProf is an automated pipeline for extracting non-parametric surface brightness profiles from galaxy images, designed to scale to the large datasets of modern wide-field surveys.</description>
+    </item>
+  </channel>
+</rss>

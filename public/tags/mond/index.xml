@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>MOND on Connor Stone</title>
+    <link>http://localhost:1313/tags/mond/</link>
+    <description>Recent content in MOND on Connor Stone</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mond/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📄 The Intrinsic Scatter of the Radial Acceleration Relation</title>
+      <link>http://localhost:1313/publications/intrinsic-scatter-rar/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/intrinsic-scatter-rar/</guid>
+      <description>A statistical analysis of the intrinsic scatter in the Radial Acceleration Relation (RAR), placing tight constraints on the universality of the baryonic-to-total acceleration connection in late-type galaxies.</description>
+    </item>
+  </channel>
+</rss>
