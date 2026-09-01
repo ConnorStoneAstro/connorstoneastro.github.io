@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Statistics on Connor Stone</title>
+    <link>http://localhost:1313/tags/statistics/</link>
+    <description>Recent content in Statistics on Connor Stone</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simulation Based Inference</title>
+      <link>http://localhost:1313/demos/simulation-based-inference/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/demos/simulation-based-inference/</guid>
+      <description>An introduction to likelihood-free inference: what it is, why you&amp;rsquo;d use it, and how the four main approaches (NLE, NPE, NJE, NRE) work.</description>
+    </item>
+    <item>
+      <title>Bayesian Statistics Primer</title>
+      <link>http://localhost:1313/demos/bayesian-statistics-primer/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/demos/bayesian-statistics-primer/</guid>
+      <description>An introduction to Bayesian thinking: priors, likelihoods, posteriors, and why it matters for science.</description>
+    </item>
+    <item>
+      <title>Linear Regression Primer</title>
+      <link>http://localhost:1313/demos/linear-regression-primer/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/demos/linear-regression-primer/</guid>
+      <description>A ground-up walkthrough of linear regression — the math, the geometry, and the assumptions that matter.</description>
+    </item>
+  </channel>
+</rss>

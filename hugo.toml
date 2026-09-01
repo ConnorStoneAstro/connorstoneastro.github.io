@@ -1,0 +1,102 @@
+baseURL = "https://connorstoneastro.github.io/"
+title = "Connor Stone"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 10
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[params]
+  author = "Connor Stone"
+  description = "Astrostatistics | Data Science | Science Communication"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = false
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  math = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  [params.homeInfoParams]
+    Title = "Connor Stone"
+    Content = """
+PhD in Astrophysics. I work on astrostatistics, data science, and open-source scientific software.
+Currently a researcher at the University of Toronto.
+"""
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/ConnorStoneAstro"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:connor.stone@utoronto.ca"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/research/"
+    weight = 20
+  [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    weight = 30
+  [[menu.main]]
+    identifier = "software"
+    name = "Software"
+    url = "/software/"
+    weight = 40
+  [[menu.main]]
+    identifier = "demos"
+    name = "Demos"
+    url = "/demos/"
+    weight = 50
+  [[menu.main]]
+    identifier = "astrophotography"
+    name = "Astrophotography"
+    url = "/astrophotography/"
+    weight = 60
+  [[menu.main]]
+    identifier = "outreach"
+    name = "Outreach"
+    url = "/outreach/"
+    weight = 70
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv/"
+    weight = 80
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
