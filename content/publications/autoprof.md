@@ -4,6 +4,11 @@ date: 2021-06-28
 draft: false
 tags: ["photometry", "software", "galaxies", "light profiles"]
 summary: "AutoProf is an automated pipeline for extracting non-parametric surface brightness profiles from galaxy images, designed to scale to the large datasets of modern wide-field surveys."
+cover:
+  image: /images/fit_ellipse_autoprof.jpg
+  alt: "Example isophotal ellipse fit on a spiral galaxy using AutoProf."
+  relative: false
+  hidden: false
 ---
 
 **Authors:** Connor Stone, Nikhil Arora, Stéphane Courteau, Jean-Charles Cuillandre
@@ -12,7 +17,8 @@ summary: "AutoProf is an automated pipeline for extracting non-parametric surfac
 **Journal:** Monthly Notices of the Royal Astronomical Society  
 **DOI:** [10.1093/mnras/stab2709](https://doi.org/10.1093/mnras/stab2709)
 
-**Documentation:** [autoprof.readthedocs.io](https://autoprof.readthedocs.io)
+**Documentation:** [autoprof.readthedocs.io](https://autoprof.readthedocs.io)  
+**GitHub:** [Autostronomy/AutoProf](https://github.com/Autostronomy/AutoProf)
 
 ---
 

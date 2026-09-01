@@ -4,6 +4,11 @@ date: 2022-09-20
 draft: false
 tags: ["galaxies", "rotation curves", "dark matter", "photometry"]
 summary: "PROBES-I presents a homogenised catalogue of 3163 deep optical rotation curves with matched multiband photometry for late-type galaxies, enabling precision tests of galaxy structure and dark matter models."
+cover:
+  image: /images/probes_fig10.jpg
+  alt: "Example surface brightness profile from the PROBES survey with marked radii at various locations."
+  relative: false
+  hidden: false
 ---
 
 **Authors:** Connor Stone, Stephane Courteau, Nikhil Arora, Matthew Frosst, Thomas Jarrett

@@ -11,7 +11,7 @@
 <meta name="description" content="Astrostatistics | Data Science | Science Communication">
 <meta name="author" content="Connor Stone">
 <link rel="canonical" href="http://localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.e2fb2e749f22327d0ee0933a718e834aeed799f60572db06ec0e884fb9f78b74.css" integrity="sha256-4vsudJ8iMn0O4JM6cY6DSu7XmfYFctsG7A6IT7n3i3Q=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f514793d1e83e6d31225c58afe22a25099b8cf83b10edf664cdf7cf44d0d0955.css" integrity="sha256-9RR5PR6D5tMSJcWK/iKiUJm4z4OxDt9mTN989E0NCVU=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -176,6 +176,9 @@
 </article>
 
 <article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/moneyplot.png" alt="Comparison of PSF reconstruction showing a cutout of a bright point source and four recovery methods at 4x resolution as well as their residuals.">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">📄 Pixellated Posterior Sampling of Point Spread Functions in Astronomical Images
     </h2>
@@ -190,6 +193,9 @@
 </article>
 
 <article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/caskade_graph.png" alt="Example directed acyclic graph built with caskade.">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">💻 caskade: Building Pythonic Scientific Simulators
     </h2>
@@ -204,6 +210,9 @@
 </article>
 
 <article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/caustics_demo.png" alt="Example using the online caustics demo platform to distort the caustics logo.">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">💻 Caustics: A Python Package for Accelerated Strong Gravitational Lensing Simulations
     </h2>
@@ -246,6 +255,9 @@
 </article>
 
 <article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/AstroPhot_multiband.png" alt="A multi-band, multi-object fitting example with AstroPhot. Fitting seven bands from UV to IR, showing the data, model, and residuals.">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">💻 AstroPhot: Fitting Everything Everywhere All at Once in Astronomical Images
     </h2>
@@ -288,6 +300,9 @@
 </article>
 
 <article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/probes_fig10.jpg" alt="Example surface brightness profile from the PROBES survey with marked radii at various locations.">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">📄 PROBES-I: A Compendium of Deep Rotation Curves and Matched Multiband Photometry
     </h2>
@@ -302,6 +317,9 @@
 </article>
 
 <article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/fit_ellipse_autoprof.jpg" alt="Example isophotal ellipse fit on a spiral galaxy using AutoProf.">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">💻 AutoProf: An Automated Non-Parametric Light Profile Pipeline for Modern Galaxy Surveys
     </h2>
@@ -407,6 +425,14 @@
   btn.addEventListener('click', close);
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') close();
+  });
+
+  
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    if (a.hostname && a.hostname !== location.hostname) {
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', 'noopener noreferrer');
+    }
   });
 
   document.querySelectorAll('.section-img, .photo-grid img').forEach(function (el) {

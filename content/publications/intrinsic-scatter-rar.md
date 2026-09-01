@@ -4,6 +4,11 @@ date: 2019-08-16
 draft: false
 tags: ["galaxies", "dark matter", "MOND", "radial acceleration relation"]
 summary: "A statistical analysis of the intrinsic scatter in the Radial Acceleration Relation (RAR), placing tight constraints on the universality of the baryonic-to-total acceleration connection in late-type galaxies."
+cover:
+  image: /images/RAR_variations.png
+  alt: "Radial Acceleration Relation plotted in grey with overlayed bars showing the direction of each source of scatter/error in the relation."
+  relative: false
+  hidden: false
 ---
 
 **Authors:** Connor Stone, Stephane Courteau

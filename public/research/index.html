@@ -10,7 +10,7 @@
 <meta name="description" content="Supernova cosmology, gravitational lensing, and Bayesian methods for large astronomical surveys">
 <meta name="author" content="Connor Stone">
 <link rel="canonical" href="http://localhost:1313/research/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.e2fb2e749f22327d0ee0933a718e834aeed799f60572db06ec0e884fb9f78b74.css" integrity="sha256-4vsudJ8iMn0O4JM6cY6DSu7XmfYFctsG7A6IT7n3i3Q=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f514793d1e83e6d31225c58afe22a25099b8cf83b10edf664cdf7cf44d0d0955.css" integrity="sha256-9RR5PR6D5tMSJcWK/iKiUJm4z4OxDt9mTN989E0NCVU=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -157,7 +157,7 @@
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" src="http://localhost:1313/images/moneyplot.png" alt="Supernova cosmology results">
+        <img loading="eager" src="http://localhost:1313/images/Connor_SNOLAB.JPG" alt="Supernova cosmology results">
         
 </figure>
   <div class="post-content md-content"><p>My work sits at the intersection of cosmology, statistics, and software. I build methods and tools that make it easier to extract reliable science from large astronomical surveys and imaging data.</p>
@@ -276,6 +276,14 @@
   btn.addEventListener('click', close);
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') close();
+  });
+
+  
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    if (a.hostname && a.hostname !== location.hostname) {
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', 'noopener noreferrer');
+    }
   });
 
   document.querySelectorAll('.section-img, .photo-grid img').forEach(function (el) {

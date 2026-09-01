@@ -100,6 +100,61 @@
     opacity: 0.88;
 }
 
+/* ── List page hero (Publications, Demos, etc.) ── */
+.page-hero {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.page-hero figure.entry-cover {
+    order: -1;
+    position: relative;
+    margin: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.page-hero figure.entry-cover img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    object-position: center 40%;
+    display: block;
+}
+
+.page-hero figure.entry-cover::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.50) 60%, rgba(0,0,0,0.76) 100%);
+    pointer-events: none;
+}
+
+.page-hero .page-header {
+    position: relative;
+    z-index: 2;
+    margin-top: -150px;
+    padding: 0 0.25rem 1.2rem;
+    border-bottom: none;
+}
+
+.page-hero .page-header h1 {
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+
+.page-hero .post-description {
+    color: rgba(255,255,255,0.92);
+    font-size: 1.05rem;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+
+.page-hero figure.entry-cover figcaption {
+    display: none;
+}
+
 /* ── Per-page hero block ── */
 /* Flex column lets us reorder cover image visually above the title. */
 article.post-single {

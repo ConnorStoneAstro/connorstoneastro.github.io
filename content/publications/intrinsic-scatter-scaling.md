@@ -4,6 +4,11 @@ date: 2021-04-14
 draft: false
 tags: ["galaxies", "scaling relations", "statistics", "dark matter"]
 summary: "A Bayesian hierarchical analysis of the intrinsic scatter in late-type galaxy scaling relations, separating measurement error from genuine physical scatter and constraining galaxy formation models."
+cover:
+  image: /images/intrinsicscatter.png
+  alt: "corner plot showing all combinations of structural parameters in the PROBES sample with corresponding slope and scatter of their relations indicated with an ellipse."
+  relative: false
+  hidden: false
 ---
 
 **Authors:** Connor Stone, Stéphane Courteau, Nikhil Arora

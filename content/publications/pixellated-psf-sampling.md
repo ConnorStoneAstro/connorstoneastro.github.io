@@ -4,6 +4,11 @@ date: 2025-11-26
 draft: false
 tags: ["machine learning", "PSF", "photometry", "Bayesian inference"]
 summary: "A framework for fully probabilistic, pixel-level inference of the point spread function directly from astronomical images, enabling principled uncertainty quantification in downstream photometric analyses."
+cover:
+  image: /images/moneyplot.png
+  alt: "Comparison of PSF reconstruction showing a cutout of a bright point source and four recovery methods at 4x resolution as well as their residuals."
+  relative: false
+  hidden: false
 ---
 
 **Authors:** Connor Stone, Ronan Legin, Alexandre Adam, Nikolay Malkin, Gabriel Missael Barco, Laurence Perreault-Levasseur, Yashar Hezaveh

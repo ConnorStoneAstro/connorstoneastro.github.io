@@ -4,7 +4,7 @@ url: "/about/"
 summary: "About Connor Stone"
 description: "Rubin Fellow, University of Toronto · Cosmology · Astrostatistics · Open-source Software"
 cover:
-  image: /images/about.jpg
+  image: /images/Connor_Lindau.jpg
   alt: "Connor Stone at the Queen's University Observatory"
   relative: false
   hidden: false

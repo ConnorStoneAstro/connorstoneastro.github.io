@@ -68,6 +68,14 @@
     if (e.key === 'Escape') close();
   });
 
+  // Open external links in a new tab
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    if (a.hostname && a.hostname !== location.hostname) {
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', 'noopener noreferrer');
+    }
+  });
+
   document.querySelectorAll('.section-img, .photo-grid img').forEach(function (el) {
     el.style.cursor = 'zoom-in';
     el.addEventListener('click', function () {

@@ -4,8 +4,8 @@ url: "/outreach/"
 summary: "Science communication and public outreach"
 description: "Science for everyone — podcasts, public talks, school programmes, and live events"
 cover:
-  image: /images/hero.jpg
-  alt: "Mauna Kea Observatories"
+  image: /images/observatorytalk.jpg
+  alt: "Connor Stone introducing a speaker at the Queen's Observatory Open House"
   relative: false
   hidden: false
 ---

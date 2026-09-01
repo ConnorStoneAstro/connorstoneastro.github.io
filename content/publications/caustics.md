@@ -4,12 +4,20 @@ date: 2024-06-22
 draft: false
 tags: ["gravitational lensing", "software", "GPU", "simulation"]
 summary: "Caustics is a GPU-accelerated Python package for strong gravitational lensing forward modelling, enabling fast simulation and inference for large-scale lensing surveys."
+cover:
+  image: /images/caustics_demo.png
+  alt: "Example using the online caustics demo platform to distort the caustics logo."
+  relative: false
+  hidden: false
 ---
 
-**Authors:** Connor Stone, Alexandre Adam, Adam Coogan, M. J. Yantovski-Barth, Andreas Filipp, Landung Setiawan, Cordero Core, Ronan Legin, Charles Wilson, Gabriel Missael Barco, Yashar Hezaveh, Laurence Perreault-Levasseur
+**Authors:** Connor Stone et al. (2024)
 
-**arXiv:** [2406.15542](https://arxiv.org/abs/2406.15542) — Submitted to JOSS
+**arXiv:** [2406.15542](https://arxiv.org/pdf/2406.15542)
+**Journal:** Journal of Open Source Software
+**DOI:** [10.21105/joss.07081](https://joss.theoj.org/papers/10.21105/joss.07081)
 
+**Website:** [caustics](https://caustics.readthedocs.io/en/latest/)
 **GitHub:** [Ciela-Institute/caustics](https://github.com/Ciela-Institute/caustics)
 
 ---

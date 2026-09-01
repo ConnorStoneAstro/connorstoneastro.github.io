@@ -4,8 +4,8 @@ url: "/cv/"
 summary: "Curriculum vitae"
 description: "Academic CV — automatically compiled from the source LaTeX"
 cover:
-  image: /images/about.jpg
-  alt: "Connor Stone at the Queen's University Observatory"
+  image: /images/Connor_Louvre_UAE.jpg
+  alt: "Connor Stone at the Louvre in the United Arab Emirates"
   relative: false
   hidden: false
 ---

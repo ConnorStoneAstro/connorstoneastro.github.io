@@ -4,7 +4,7 @@ url: "/research/"
 summary: "Connor Stone's research"
 description: "Supernova cosmology, gravitational lensing, and Bayesian methods for large astronomical surveys"
 cover:
-  image: /images/moneyplot.png
+  image: /images/Connor_SNOLAB.JPG
   alt: "Supernova cosmology results"
   relative: false
   hidden: false

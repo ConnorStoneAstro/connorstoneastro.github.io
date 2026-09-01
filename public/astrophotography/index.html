@@ -10,7 +10,7 @@
 <meta name="description" content="Auroras, eclipses, and deep-sky objects photographed from Ontario and Quebec">
 <meta name="author" content="Connor Stone">
 <link rel="canonical" href="http://localhost:1313/astrophotography/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.e2fb2e749f22327d0ee0933a718e834aeed799f60572db06ec0e884fb9f78b74.css" integrity="sha256-4vsudJ8iMn0O4JM6cY6DSu7XmfYFctsG7A6IT7n3i3Q=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f514793d1e83e6d31225c58afe22a25099b8cf83b10edf664cdf7cf44d0d0955.css" integrity="sha256-9RR5PR6D5tMSJcWK/iKiUJm4z4OxDt9mTN989E0NCVU=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -157,45 +157,39 @@
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" src="http://localhost:1313/images/astrophotography.jpg" alt="Aurora Borealis May 2024">
+        <img loading="eager" src="http://localhost:1313/images/astrophotography/ConnorStoneMaunakea.jpg" alt="Aurora Borealis May 2024">
         
 </figure>
   <div class="post-content md-content"><p>Bad photos that I am proud of. I served as coordinator of the Queen&rsquo;s Observatory during my PhD, which sparked a serious amateur astrophotography habit.</p>
 <h2 id="aurora-borealis--may-2024">Aurora Borealis — May 2024<a hidden class="anchor" aria-hidden="true" href="#aurora-borealis--may-2024">#</a></h2>
 <!-- PHOTO — replace src with your own image path -->
-<img class="section-img" src="/images/astrophotography.jpg" alt="Aurora Borealis, May 2024">
+<img class="photo-grid" src="/images/astrophotography/astrophotography.jpg" alt="Aurora Borealis, May 2024">
 <p>Captured from my backyard following a major solar storm. One of those nights where you run outside in your socks.</p>
 <h2 id="total-solar-eclipse--april-8-2024">Total Solar Eclipse — April 8, 2024<a hidden class="anchor" aria-hidden="true" href="#total-solar-eclipse--april-8-2024">#</a></h2>
 <!-- PHOTO — replace src with your own image path -->
-<img class="section-img" src="/images/astrophotography.jpg" alt="Total Solar Eclipse, April 2024">
+<img class="photo-grid" src="/images/astrophotography/eclipse_2024.png" alt="Total Solar Eclipse, April 2024">
 <p>Photographed with a DSLR and kit lens. No amount of preparation makes totality feel real.</p>
 <h2 id="messier-objects-tour--2020">Messier Objects Tour — 2020<a hidden class="anchor" aria-hidden="true" href="#messier-objects-tour--2020">#</a></h2>
 <!-- PHOTO GRID — add or remove <img> tags as needed; each image fills one grid cell -->
-<div class="photo-grid">
-  <!-- PHOTO — replace src with your own image path -->
-  <img src="/images/m51.jpg" alt="M51 — The Whirlpool Galaxy">
-  <!-- PHOTO — replace src with your own image path -->
-  <img src="/images/m51.jpg" alt="M61 with supernova">
-  <!-- PHOTO — replace src with your own image path -->
-  <img src="/images/m51.jpg" alt="Messier object">
-</div>
+<p><img alt="A tour of Messier Objects" loading="lazy" src="/images/astrophotography/messierobjects.png"></p>
 <p>A project to photograph Messier catalogue objects. Highlights include M61, which happened to host a supernova during my imaging run.</p>
 <h2 id="m51--the-whirlpool-galaxy">M51 — The Whirlpool Galaxy<a hidden class="anchor" aria-hidden="true" href="#m51--the-whirlpool-galaxy">#</a></h2>
 <!-- PHOTO GRID — add or remove <img> tags as needed; each image fills one grid cell -->
 <div class="photo-grid">
   <!-- PHOTO — replace src with your own image path (e.g. raw version) -->
-  <img src="/images/m51.jpg" alt="M51 — raw">
+  <img src="/images/astrophotography/m51.jpg" alt="M51 — stacked">
   <!-- PHOTO — replace src with your own image path (e.g. processed version) -->
-  <img src="/images/m51.jpg" alt="M51 — processed">
+  <img src="/images/astrophotography/img_stackednormed_16.jpg" alt="M51 — bad stack">
+  <img src="/images/astrophotography/dsc_2103.jpg" alt="M51 — raw">
 </div>
 <p>Multiple versions, raw and processed. The processing pipeline for this one grew into custom stacking code to align images with larger pixel offsets than commercial software could handle.</p>
 <h2 id="m57--the-ring-nebula">M57 — The Ring Nebula<a hidden class="anchor" aria-hidden="true" href="#m57--the-ring-nebula">#</a></h2>
 <!-- PHOTO — replace src with your own image path -->
-<img class="section-img" src="/images/m51.jpg" alt="M57 — The Ring Nebula">
+<img class="photo-grid" src="/images/astrophotography/m57_fourthtry.jpg" alt="M57 — The Ring Nebula">
 <p>My first serious stacking attempt. I keep coming back to this one.</p>
 <h2 id="m27--the-dumbbell-nebula">M27 — The Dumbbell Nebula<a hidden class="anchor" aria-hidden="true" href="#m27--the-dumbbell-nebula">#</a></h2>
 <!-- PHOTO — replace src with your own image path -->
-<img class="section-img" src="/images/m51.jpg" alt="M27 — The Dumbbell Nebula">
+<img class="photo-grid" src="/images/astrophotography/m27.jpg" alt="M27 — The Dumbbell Nebula">
 <p>The first time I got a photo with colour and interesting structure. It stuck.</p>
 
 
@@ -294,6 +288,14 @@
   btn.addEventListener('click', close);
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') close();
+  });
+
+  
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    if (a.hostname && a.hostname !== location.hostname) {
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', 'noopener noreferrer');
+    }
   });
 
   document.querySelectorAll('.section-img, .photo-grid img').forEach(function (el) {

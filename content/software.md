@@ -4,8 +4,8 @@ url: "/software/"
 summary: "Open-source scientific software by Connor Stone"
 description: "GPU-accelerated tools for astronomical image analysis, gravitational lensing, and scientific simulation"
 cover:
-  image: /images/caskade_graph.png
-  alt: "caskade computational graph visualization"
+  image: /images/Connor_Neuschwestein.jpg
+  alt: "Connor Stone at the Neuschwanstein Castle in Germany"
   relative: false
   hidden: false
 ---
