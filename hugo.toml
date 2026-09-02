@@ -16,10 +16,10 @@ buildExpired = false
   description = "Astrostatistics | Data Science | Science Communication"
   defaultTheme = "auto"
   disableThemeToggle = false
-  ShowReadingTime = true
+  ShowReadingTime = false
   ShowShareButtons = false
   ShowPostNavLinks = true
-  ShowBreadCrumbs = false
+  ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowWordCount = false
   ShowRssButtonInSectionTermList = false
@@ -47,6 +47,10 @@ I work on supernova cosmology, astrostatistics, and open-source scientific softw
   [[params.socialIcons]]
     name = "email"
     url = "mailto:connor.stone@utoronto.ca"
+
+  [[params.socialIcons]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/connor-stone-9b970959/"
 
 [menu]
   [[menu.main]]
