@@ -156,70 +156,25 @@
 }
 
 /* ── Per-page hero block ── */
-/* Flex column lets us reorder cover image visually above the title. */
+/* Cover image appears above the title at its natural aspect ratio — no crop, no overlay. */
 article.post-single {
     display: flex;
     flex-direction: column;
 }
 
-/* Move cover to visual top */
 article.post-single figure.entry-cover {
     order: -1;
-    position: relative;
-    margin: 0 0 0 0;
+    margin: 0 0 1.5rem 0;
     border-radius: 8px;
     overflow: hidden;
 }
 
 article.post-single figure.entry-cover img {
     width: 100%;
-    height: 320px;
-    object-fit: cover;
-    object-position: center 40%;
+    height: auto;
     display: block;
 }
 
-/* Gradient overlay — darkens toward the bottom where the title sits */
-article.post-single figure.entry-cover::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-        to bottom,
-        rgba(0,0,0,0.05) 0%,
-        rgba(0,0,0,0.50) 60%,
-        rgba(0,0,0,0.76) 100%
-    );
-    pointer-events: none;
-}
-
-/* Pull post-header UP into the gradient zone — only when a cover exists */
-article.post-single:has(figure.entry-cover) .post-header {
-    position: relative;
-    z-index: 2;
-    margin-top: -150px;
-    padding: 0 0.25rem 1.2rem;
-}
-
-article.post-single:has(figure.entry-cover) h1.post-title {
-    color: #fff;
-    font-size: 2rem;
-    text-shadow: 0 1px 4px rgba(0,0,0,0.5);
-}
-
-article.post-single:has(figure.entry-cover) .post-description {
-    color: rgba(255,255,255,0.92);
-    font-size: 1.05rem;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.4);
-}
-
-article.post-single:has(figure.entry-cover) .post-meta,
-article.post-single:has(figure.entry-cover) .post-meta a,
-article.post-single:has(figure.entry-cover) .post-meta span {
-    color: rgba(255,255,255,0.72);
-}
-
-/* Hide the caption (image credit if any) inside the hero */
-article.post-single:has(figure.entry-cover) figure.entry-cover figcaption {
+article.post-single figure.entry-cover figcaption {
     display: none;
 }

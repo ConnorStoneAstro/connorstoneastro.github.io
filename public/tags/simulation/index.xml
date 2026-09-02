@@ -6,8 +6,15 @@
     <description>Recent content in Simulation on Connor Stone</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PTED</title>
+      <link>http://localhost:1313/software/pted/</link>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/software/pted/</guid>
+      <description>The Permutation Test using the Energy Distance (PTED) is a powerful multi-dimensional two sample test.</description>
+    </item>
     <item>
       <title>💻 caskade: Building Pythonic Scientific Simulators</title>
       <link>http://localhost:1313/publications/caskade/</link>
@@ -16,10 +23,24 @@
       <description>caskade is a Python library for constructing modular, differentiable scientific simulators with automatic parameter tracking and Bayesian inference integration.</description>
     </item>
     <item>
+      <title>caskade</title>
+      <link>http://localhost:1313/software/caskade/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/software/caskade/</guid>
+      <description>caskade is a Python library for constructing modular, differentiable scientific simulators with automatic parameter tracking and Bayesian inference integration.</description>
+    </item>
+    <item>
       <title>💻 Caustics: A Python Package for Accelerated Strong Gravitational Lensing Simulations</title>
       <link>http://localhost:1313/publications/caustics/</link>
       <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publications/caustics/</guid>
+      <description>Caustics is a GPU-accelerated Python package for strong gravitational lensing forward modelling, enabling fast simulation and inference for large-scale lensing surveys.</description>
+    </item>
+    <item>
+      <title>Caustics</title>
+      <link>http://localhost:1313/software/caustics/</link>
+      <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/software/caustics/</guid>
       <description>Caustics is a GPU-accelerated Python package for strong gravitational lensing forward modelling, enabling fast simulation and inference for large-scale lensing surveys.</description>
     </item>
   </channel>

@@ -5,7 +5,7 @@ summary: "Curriculum vitae"
 description: "Academic CV — automatically compiled from the source LaTeX"
 cover:
   image: /images/Connor_Louvre_UAE.jpg
-  alt: "Connor Stone at the Louvre in the United Arab Emirates"
+  alt: "Connor Stone at the Louvre in the United Arab Emirates."
   relative: false
   hidden: false
 ---

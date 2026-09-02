@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/publications/autoprof/</guid>
       <description>AutoProf is an automated pipeline for extracting non-parametric surface brightness profiles from galaxy images, designed to scale to the large datasets of modern wide-field surveys.</description>
     </item>
+    <item>
+      <title>AutoProf</title>
+      <link>http://localhost:1313/software/autoprof/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/software/autoprof/</guid>
+      <description>AutoProf is an automated pipeline for extracting non-parametric surface brightness profiles from galaxy images, designed to scale to the large datasets of modern wide-field surveys.</description>
+    </item>
   </channel>
 </rss>

@@ -23,6 +23,13 @@
       <description>AstroPhot is a Python package for simultaneous multi-band, multi-object photometric fitting of astronomical images using automatic differentiation and GPU acceleration.</description>
     </item>
     <item>
+      <title>AstroPhot</title>
+      <link>http://localhost:1313/software/astrophot/</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/software/astrophot/</guid>
+      <description>AstroPhot is a Python package for simultaneous multi-band, multi-object photometric fitting of astronomical images using automatic differentiation and GPU acceleration.</description>
+    </item>
+    <item>
       <title>📄 PROBES-I: A Compendium of Deep Rotation Curves and Matched Multiband Photometry</title>
       <link>http://localhost:1313/publications/probes-i/</link>
       <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
@@ -34,6 +41,13 @@
       <link>http://localhost:1313/publications/autoprof/</link>
       <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publications/autoprof/</guid>
+      <description>AutoProf is an automated pipeline for extracting non-parametric surface brightness profiles from galaxy images, designed to scale to the large datasets of modern wide-field surveys.</description>
+    </item>
+    <item>
+      <title>AutoProf</title>
+      <link>http://localhost:1313/software/autoprof/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/software/autoprof/</guid>
       <description>AutoProf is an automated pipeline for extracting non-parametric surface brightness profiles from galaxy images, designed to scale to the large datasets of modern wide-field surveys.</description>
     </item>
   </channel>
