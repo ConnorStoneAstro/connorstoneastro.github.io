@@ -1,0 +1,180 @@
+/* ── Hero section on home page ── */
+.home-info {
+    position: relative;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2.5rem 2rem 2rem !important;
+    background-image: url('/images/hero.jpg');
+    background-size: cover;
+    background-position: center 35%;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+/* dark gradient overlay */
+.home-info::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.1) 0%,
+        rgba(0,0,0,0.55) 70%,
+        rgba(0,0,0,0.72) 100%
+    );
+    border-radius: 8px;
+}
+
+/* text on top of overlay */
+.home-info .entry-header,
+.home-info .entry-content,
+.home-info .entry-footer {
+    position: relative;
+    z-index: 1;
+}
+
+.home-info .entry-header h1 {
+    color: #fff;
+    font-size: 2.2rem;
+    margin-bottom: 0.4rem;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+
+.home-info .entry-content p {
+    color: rgba(255,255,255,0.9);
+    font-size: 1.05rem;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+
+/* social icons — white on dark background */
+.home-info .social-icons a svg {
+    fill: rgba(255,255,255,0.85);
+    transition: fill 0.2s;
+}
+.home-info .social-icons a:hover svg {
+    fill: #fff;
+}
+
+/* pull hero to full content width */
+@media (min-width: 768px) {
+    .home-info {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* ── Section images (research / software pages) ── */
+.section-img {
+    width: 100%;
+    max-height: 280px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+    display: block;
+    margin: 0.4rem 0 1.6rem;
+}
+
+/* ── Photo grid (astrophotography multi-image sections) ── */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.5rem;
+    margin: 0.4rem 0 1.6rem;
+}
+
+.photo-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+    display: block;
+    cursor: zoom-in;
+    transition: opacity 0.2s;
+}
+
+.photo-grid img:hover {
+    opacity: 0.88;
+}
+
+/* ── List page hero (Publications, Demos, etc.) ── */
+.page-hero {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.page-hero figure.entry-cover {
+    order: -1;
+    position: relative;
+    margin: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.page-hero figure.entry-cover img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    object-position: center 40%;
+    display: block;
+}
+
+.page-hero figure.entry-cover::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.50) 60%, rgba(0,0,0,0.76) 100%);
+    pointer-events: none;
+}
+
+.page-hero .page-header {
+    position: relative;
+    z-index: 2;
+    margin-top: -150px;
+    padding: 0 0.25rem 1.2rem;
+    border-bottom: none;
+}
+
+.page-hero .page-header h1 {
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+
+.page-hero .post-description {
+    color: rgba(255,255,255,0.92);
+    font-size: 1.05rem;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+
+.page-hero figure.entry-cover figcaption {
+    display: none;
+}
+
+/* ── Per-page hero block ── */
+/* Cover image appears above the title at its natural aspect ratio — no crop, no overlay. */
+article.post-single {
+    display: flex;
+    flex-direction: column;
+}
+
+article.post-single figure.entry-cover {
+    order: -1;
+    margin: 0 0 1.5rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+article.post-single figure.entry-cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+article.post-single figure.entry-cover figcaption {
+    display: none;
+}
