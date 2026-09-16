@@ -1,4 +1,4 @@
 ---
-title: "Demos"
-description: "Write-ups and walkthroughs on topics in statistics, data science, and astrophysics."
+title: "Teaching"
+description: "Teaching resources, write-ups, and walkthroughs on topics in statistics, data science, and astrophysics."
 ---
