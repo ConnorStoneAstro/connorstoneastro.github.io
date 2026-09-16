@@ -2,7 +2,7 @@
 title: "Publications"
 url: "/publications/"
 summary: "Connor Stone's publications in astrophysics and machine learning"
-description: "Refereed publications are listed here, use the SciXplorer links to query other metrics and visualizations."
+description: "(Co-)Authored publications are listed here, use the SciXplorer links to query other metrics and visualizations."
 cover:
   image: /images/about2.jpg
   alt: "Connor Stone at the Queen's Observatory"
